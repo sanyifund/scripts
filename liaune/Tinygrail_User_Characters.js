@@ -28,17 +28,4 @@ function collect(username){
 	});
 }
 document.write('<table><tbody><tr><th>ID</th><th>角色</th><th>股息</th><th>总股数</th><th>持有人</th><th>股数</th></tr></tbody><tbody>');
-collect('273965');
-/*var i = 0;
-var users = ['rog_defwang','sakinin','allegray','449550','286852','261227','346114','liaune','496837','weane'];
-
-function checkup(){
-	if(i<users.length){
-		console.log(users[i]);
-		collect(users[i]);
-		i++;
-		setTimeout("checkup()",3000);
-	}
-}
-document.write('<table><tbody><tr><th>ID</th><th>角色</th><th>股息</th><th>总股数</th><th>持有人</th><th>股数</th></tr></tbody><tbody>');
-checkup();*/
+collect('BGM_UserId'); //要统计的人的BGM_UserId
