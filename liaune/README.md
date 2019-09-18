@@ -7,7 +7,7 @@
 ## bgm角色小圣杯状态检测 [bangumi_character_ICO_check.user.js](https://github.com/sanyifund/scripts/blob/master/liaune/bangumi_character_ICO_check.user.js)
 可安装脚本，检测bgm角色小圣杯状态
 
-## ICO金额计算 [TinyGrail_ICO_Money_Calculate](https://github.com/sanyifund/scripts/blob/master/liaune/TinyGrail_ICO_Money_Calculate.js)
+## ICO金额计算 [TinyGrail_ICO_Money_Calculate.js](https://github.com/sanyifund/scripts/blob/master/liaune/TinyGrail_ICO_Money_Calculate.js)
 计算投入ICO的金额
 
 ## 主席统计 [Tinygrail_Character_Chairmen_Statistics.js](https://github.com/sanyifund/scripts/blob/master/liaune/Tinygrail_Character_Chairmen_Statistics.js)
