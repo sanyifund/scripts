@@ -5,7 +5,7 @@ Created on Tue Sep 17 14:21:30 2019
 @author: allegra
 """
 """
-查找某个用户所有的交易记录
+追踪一个用户的全市所有交易记录。
 """
 from selenium import webdriver
 import json

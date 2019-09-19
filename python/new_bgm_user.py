@@ -6,13 +6,11 @@ Created on Fri Aug 23 19:23:31 2019
 """
 """
 0.有bug
-1.功能：爬取六个榜单所有的股东或注资人（其实只用爬4个榜单。1个涨幅榜3个ico榜）。
-2.使用了多线程。
-3.每个页面会等待10秒钟，超时会重启driver。
-4.爬过一遍后，下次再运行本爬虫就会只爬新增的用户。
-5.最后的结果保存在'mapId.xlsx'中。其他三个文件是中间产物，也不要删，某些情况下能提升爬虫速度。
-6.gen_all_name_flag 设置为1时更新'all_name.xlsx'文件，设置为0时不更新，直接读取。
-  gen_all_bgmid_flag, gen_all_tinygrailId_flag同理。
+1.得到新注册用户的小圣杯id与bgmid的对应关系。
+2.爬过一遍后，下次再运行本爬虫就会只爬新增的用户。
+3.最后的结果保存在'mapId.xlsx'中。其他三个文件是中间产物，也不要删，某些情况下能提升爬虫速度。
+4.gen_all_tinygrailId_flag 设置为1时更新'new_user_tinygrail_id.xlsx'文件，设置为0时不更新，直接读取。
+  gen_all_names_flag同理。
 """
 
 from selenium import webdriver
