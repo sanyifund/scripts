@@ -7,7 +7,7 @@
 爬取所有正在ico中的角色及其相关信息。
 
 ## 爬取小圣杯开启以来新注册bangumi的用户 [new_bgm_user.py](https://github.com/sanyifund/scripts/tree/master/python/new_bgm_user.py.py))
-0.有bug
+0.有bug  
 1.得到新注册用户的小圣杯id与bgmid的对应关系。  
 2.爬过一遍后，下次再运行本爬虫就会只爬新增的用户。  
 3.最后的结果保存在'mapId.xlsx'中。其他三个文件是中间产物，也不要删，某些情况下能提升爬虫速度。  
