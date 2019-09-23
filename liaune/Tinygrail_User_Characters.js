@@ -1,4 +1,4 @@
-var api = 'https://www.tinygrail.com/api/';
+var api = 'https://tinygrail.com/api/';
 
 function getData(url, callback) {
   if (!url.startsWith('http'))
