@@ -7,7 +7,7 @@
 // @include      /^https?:\/\/(bgm\.tv|chii\.in|bangumi\.tv)\/.*
 // @grant        GM_addStyle
 // ==/UserScript==
-let api = 'https://www.tinygrail.com/api/';
+let api = 'https://tinygrail.com/api/';
 let characterlist;
 let i=0;
 let showBtn = document.createElement('a');
