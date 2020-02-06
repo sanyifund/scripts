@@ -4,4 +4,3 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/sanyifund/scripts)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sanyifund/scripts)
 
-# 三一鸡精小圣杯脚本
